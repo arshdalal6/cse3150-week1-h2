@@ -1,8 +1,9 @@
 #include <iostream>
-#include <MathUtils.h>
+#include "AdvancedMath.h"
+#include "MathUtils.h"
 
 namespace AdvancedMath{
-    int sqaure(int n){
-        return n * n;
+    int square(int n){
+        return MathUtils::multiply(n, n);
     }
 }

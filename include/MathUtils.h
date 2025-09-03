@@ -1,5 +1,5 @@
-#ifndef MathUtils
-#define MathUtils
+#ifndef MATHUTILS_H
+#define MATHUTILS_H
 
 
 namespace MathUtils{
